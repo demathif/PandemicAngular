@@ -1,0 +1,48 @@
+<div class="w3-bar w3-white">
+	<button (click)="Next()" class="w3-btn w3-block w3-green w3-center-align" style="width:100%">{{next_state_desc}}>></button>
+</div>
+<div>
+	<span class="joueur">
+		<ul class="w3-ul w3-hoverable">
+			<li class="w3-hover-{{role_player1.color}} w3-tooltip">
+				<img src="assets/{{role_player1.id}}.png" class="w3-circle" style="width:40px">  {{role_player1.name}}
+				<p class="w3-text">{{role_player1.description}}</p>
+			</li>
+			<li class="w3-hover-{{item.color}}" *ngFor="let item of deck_player1">
+				<img src="assets/{{item.color}}.png" class="w3-circle" style="width:40px">  {{item.name}}
+			</li>
+		</ul> 
+	</span>
+	<span class="joueur">
+		<ul class="w3-ul w3-hoverable">
+			<li class="w3-hover-{{role_player2.color}} w3-tooltip">
+				<img src="assets/{{role_player2.id}}.png" class="w3-circle" style="width:40px">  {{role_player2.name}}
+				<p class="w3-text">{{role_player2.description}}</p>
+			</li>
+			<li class="w3-hover-{{item.color}}" *ngFor="let item of deck_player2">
+				<img src="assets/{{item.color}}.png" class="w3-circle" style="width:40px">  {{item.name}}
+			</li>
+		</ul> 
+	</span>
+</div>
+<div>
+	<span class="joueur">
+		<ul class="w3-ul w3-hoverable">
+			<li class="w3-hover-blue">PAQUET JOUEUR  <span class="w3-badge w3-blue">{{nb_cards}}</span></li>
+			<li class="w3-hover-blue">VITESSE PROPAGATION  <span class="w3-badge w3-blue">{{propagation_speed}}</span></li>
+			<li class="w3-hover-green">DECOMPTE EPIDEMIES  <span class="w3-badge w3-green">{{nb_epidemics}}</span></li>
+			<li class="w3-hover-{{item.color}} w3-tooltip" *ngFor="let item of deck_epidemics_defausse">
+				<img src="assets/{{item.color}}.png" class="w3-circle" style="width:40px">  {{item.name}}
+				<p class="w3-text">{{item.description}}</p>
+			</li>
+		</ul> 
+	</span>
+	<span class="joueur">
+		<ul class="w3-ul w3-hoverable">
+			<li class="w3-hover">DEFAUSSE PROPAGATION</li>
+			<li class="w3-hover-{{item.color}}" *ngFor="let item of deck_propagation_defausse">
+				<img src="assets/{{item.color}}.png" class="w3-circle" style="width:40px">  {{item.name}}
+			</li>
+		</ul> 
+	</span>
+</div>
