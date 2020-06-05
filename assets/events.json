@@ -1,0 +1,56 @@
+[
+	{ "id": 51,
+		"name": "Hôpital mobile",
+		"color": "gray",
+		"description": "",
+		"extension": "",
+		"type": "event"
+	},
+	{ "id": 52,
+		"name": "Rééxaminer les recherches",
+		"color": "gray",
+		"description": "",
+		"extension": "",
+		"type": "event"
+	},
+	{
+		"id": 53,
+		"name": "Traitements à distance",
+		"color": "gray",
+		"description": "",
+		"extension": "",
+		"type": "event"
+	},
+	{
+		"id": 54,
+		"name": "Ordres spéciaux",
+		"color": "gray",
+		"description": "",
+		"extension": "",
+		"type": "event"
+	},
+	{
+		"id": 55,
+		"name": "Temps emprunté",
+		"color": "gray",
+		"description": "",
+		"extension": "",
+		"type": "event"
+	},
+	{
+		"id": 56,
+		"name": "Déploiement de vaccins rapides",
+		"color": "gray",
+		"description": "",
+		"extension": "",
+		"type": "event"
+	},
+	{
+		"id": 57,
+		"name": "Subvention publique",
+		"color": "gray",
+		"description": "",
+		"extension": "",
+		"type": "event"
+	}
+]

@@ -1,0 +1,49 @@
+[
+	{
+		"id": 100,
+		"name": "Pente fatale",
+		"color": "green",
+		"description": "Avancez le marqueur ?closion de 2 cases (et non de 1) lorsqu?une ?closion de la souche virulente se produit.",
+		"type": "epidemic",
+		"extension": "Au seuil de la catastrophe"
+	},
+	{
+		"id": 101,
+		"name": "Structure moléculaire complexe",
+		"color": "green", "description": "Si la souche virulente n'a pas encore été guérie, il vous faut désormais 1 carte Ville de la souche virulente supplémentaire pour découvrir son remede. Sinon, ignorez cet effet.",
+		"type": "epidemic",
+		"extension": "Au seuil de la catastrophe"
+	},
+	{
+		"id": 102,
+		"name": "Pertes inacceptables",
+		"color": "green",
+		"description": "Avant l'étape Intensification de cette carte, retirez de la réserve 4 cubes de la souche virulente et remettez-les dans la boite. S'il reste moins que 4 de ces cubes dans la réserve, retirez tout ce qui reste.",
+		"type": "epidemic",
+		"extension": "Au seuil de la catastrophe"
+	},
+	{
+		"id": 103,
+		"name": "Effet chronique",
+		"color": "green",
+		"description": "Durant la propagation, si une ville de la souche virulente est dévoilée et qu'il n'y a aucun cube de cette couleur sur cette ville, placez-y 2 cubes (sinon, placez 1 cube). Aucun effet lors d'une épidémie ou d'une éclosion.",
+		"type": "epidemic",
+		"extension": "Au seuil de la catastrophe"
+	},
+	{
+		"id": 104,
+		"name": "Ingérence gouvernementale",
+		"color": "green",
+		"description": "Durant son tour, pour quitter une ville ou il y a des cubes de la souche virulente, un joueur doit d'abord traiter au moins 1 cube de la souche virulente dans cette ville.",
+		"type": "epidemic",
+		"extension": "Au seuil de la catastrophe"
+	},
+	{
+		"id": 105,
+		"name": "Populations non calculées",
+		"color": "green",
+		"description": "Avant l'étape Intensification de cette carte, placez 1 cube de la souche virulente sur chaque ville ou il y a exactement 1 de ces cubes (ignorez les cubes des autres couleurs).",
+		"type": "epidemic",
+		"extension": "Au seuil de la catastrophe"
+	}
+]

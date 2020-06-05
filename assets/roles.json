@@ -1,0 +1,93 @@
+[
+	{
+		"id": 1,
+		"name": "CHERCHEUSE",
+		"color": "brown",
+		"description": "Lors d’une action Partager des connaissances, la Chercheuse peut donner n’importe quelle carte Ville de sa main à un autre joueur situé dans la même ville qu’elle. La carte n’a pas à correspondre à la ville occupée par les deux joueurs. La carte doit provenir de la main de la Chercheuse, mais la carte peut être donnée au tour de la Chercheuse ou de l’autre joueur.",
+		"version": "pandemic"
+	},
+	{
+		"id": 2,
+		"name": "PLANIFICATEUR",
+		"description": "Pour une action, le Planificateur d’urgence peut prendre une carte Évènement quelconque de la défausse Joueur et l’entreposer sur sa carte Rôle. En tout temps, il ne peut y avoir qu’une seule carte Évènement sur sa carte Rôle. Cette dernière n’est pas dans sa main. Lorsque le Planifi cateur d’urgence joue la carte Évènement entreposée sur sa carte Rôle, retirez cette carte Évènement du jeu (plutôt que de la défausser).",
+		"color": "cyan",
+		"version": "pandemic"
+	},
+	{
+		"id": 3,
+		"name": "EXPERT AUX OPÉRATIONS",
+		"description": "Pour une action, l’Expert aux opérations peut :• construire une station de recherche dans sa ville actuelle sans avoir à défausser (ou jouer) une carte, OU • une seule fois par tour, se déplacer d’une ville avec une station de recherche vers n’importe quelle ville en défaussant une carte Ville de son choix.",
+		"color": "light-green",
+		"version": "pandemic"
+	},
+	{
+		"id": 4,
+		"name": "RÉPARTITEUR",
+		"description": "Avec une action, le Répartiteur peut : • déplacer le pion d’un autre joueur comme si c’était le sien, avec l’accord de son propriétaire, OU • déplacer n’importe quel pion, avec l’accord de son propriétaire, vers n’importe quelle ville où se trouve un autre pion.",
+		"color": "pink",
+		"version": "pandemic"
+	},
+	{
+		"id": 5,
+		"name": "MÉDECIN",
+		"description": "Pour une action Traiter une maladie, le Médecin retire tous les cubes de la même couleur d’une ville, pas seulement 1. Si une maladie est guérie, il retire automatiquement tous les cubes de cette couleur de la ville où il entre ou qu’il occupe. Ceci ne nécessite aucune action. Le Médecin empêche également le placement de cubes d’une maladie guérie (peu importe la raison) dans la ville où il se trouve",
+		"color": "orange",
+		"version": "pandemic"
+	},
+	{
+		"id": 6,
+		"name": "SCIENTIFIQUE",
+		"description": " La Scientifique n’a besoin que de 4 (et non 5) cartes Ville de la même couleur pour Découvrir le remède contre la maladie de cette couleur.",
+		"color": "white",
+		"version": "pandemic"
+	},
+	{
+		"id": 7,
+		"name": "SPÉCIALISTE EN MISE EN QUARANTAINE",
+		"description": "La Spécialiste en mise en quarantaine empêche les éclosions et le placement de cubes de maladie dans sa ville ainsi que dans toutes les villes qui y sont reliées. Ignorez sa capacité durant la mise en place.",
+		"color": "green",
+		"version": "pandemic"
+	},
+	{
+		"id": 8,
+		"name": "ARCHIVISTE",
+		"description": "L'Archiviste a une limite de 8 cartes en main. Une fois par tour, il peut utiliser une action pour prendre de la défausse Joueur la carte de la ville qu'il occupe a ce moment et l'ajouter a sa main.",
+		"color": "blue",
+		"version": ""
+	},
+	{
+		"id": 9,
+		"name": "GÉNÉRALISTE",
+		"description": "La Généraliste peut effectuer jusqu'a 5 actions par tour.",
+		"color": "light-gray",
+		"version": ""
+	},
+	{
+		"id": 10,
+		"name": "OPÉRATEUR DE TERRAIN",
+		"description": "Une fois par tour, pour une action, l'Opérateur de terrain peut déplacer 1 cube de la ville qu'il occupe et le placer sur sa carte Role comme échantillon. Lorsqu'il découvre un remede, il peut remplacer exactement 2 des cartes Ville requises en remettant 3 cubes, de la couleur du remede, de sa carte a la réserve.",
+		"color": "yellow",
+		"version": ""
+	},
+	{
+		"id": 11,
+		"name": "DÉPANNEUSE",
+		"description": "Au début de son tour, la Dépanneuse peut consulter un nombre de cartes Propagation égal a la vitesse de propagation actuelle (en prenant ces cartes du dessus du paquet Propagation, les consultant, puis en les replacant sur le dessus dans le meme ordre).",
+		"color": "red",
+		"version": ""
+	},
+	{
+		"id": 12,
+		"name": "SPÉCIALISTE EN CONFINEMENT",
+		"description": "Lorsque le Spécialiste en confinement entre dans une ville, si 2 cubes ou plus d'une meme maladie/couleur sont présents, il retire 1 de ces cubes.",
+		"color": "lime",
+		"version": ""
+	},
+	{
+		"id": 13,
+		"name": "ÉPIDÉMIOLOGISTE",
+		"description": "Une fois par tour et a son tour seulement, l'épidémiologiste peut prendre n'importe qu'elle carte Ville d'un joueur situé sur la meme ville qu'elle. L'autre joueur doit etre d'accord. Ceci ne requiert pas une action.",
+		"color": "pale-red",
+		"version": ""
+	}
+]
